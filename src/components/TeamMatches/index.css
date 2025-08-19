@@ -1,0 +1,58 @@
+.team-matches-route-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Dynamic Background Colors based on Team ID */
+.KKR {
+  background-color: #5755a7;
+}
+.RCB {
+  background-color: #a4261d;
+}
+.MI {
+  background-color: #13418b;
+}
+.CSK {
+  background-color: #f7db00;
+}
+.RR {
+  background-color: #da237b;
+}
+.KXP {
+  background-color: #d91c1f;
+}
+.SH {
+  background-color: #f26d22;
+}
+.DC {
+  background-color: #4f5db0;
+}
+
+.team-matches-container {
+  width: 100%;
+  max-width: 1100px;
+}
+
+.team-banner {
+  width: 100%;
+  border-radius: 12px;
+  /* Ensures the image content covers the container without distortion */
+  object-fit: cover;
+}
+
+.latest-matches-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+}
+
+.recent-matches-list {
+  display: flex;
+  flex-wrap: wrap; /* This allows the items to wrap to the next line */
+  justify-content: center; /* Centers the items on the line */
+  padding-left: 0;
+  list-style-type: none;
+}

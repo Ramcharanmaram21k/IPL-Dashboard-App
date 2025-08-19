@@ -1,0 +1,86 @@
+.latest-match-card-container {
+  background-color: #1e293b;
+  border-radius: 12px;
+  padding: 20px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latest-match-details-logo-container {
+  display: flex;
+  align-items: center;
+  width: 65%;
+}
+
+.latest-match-details-1 {
+  width: 70%;
+}
+
+.latest-match-team-name {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.latest-match-date, .match-details {
+  font-size: 20px;
+}
+
+.latest-match-team-logo {
+  width: 200px;
+  height: 200px;
+}
+
+.separator {
+  border: 1px solid #475569;
+  width: 100%;
+  margin: 20px 0;
+  display: none; /* Hidden on large screens */
+}
+
+.latest-match-details-2 {
+  text-align: right;
+  width: 30%;
+}
+
+.latest-match-details-label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.latest-match-details-value {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .latest-match-card-container {
+    flex-direction: column;
+  }
+  .latest-match-details-logo-container {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .latest-match-details-1 {
+    width: 100%;
+    order: 2;
+  }
+  .latest-match-team-logo {
+    width: 100px;
+    height: 100px;
+    order: 1;
+    margin-bottom: 15px;
+  }
+  .separator {
+    display: block;
+  }
+  .latest-match-details-2 {
+    width: 100%;
+    text-align: left;
+  }
+}
