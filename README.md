@@ -1,7 +1,7 @@
  **IPL Dashboard App** 
 
 ## Live Link
-https://ipl-dashboard-app-one.vercel.app/team-matches/RCB
+https://ipl-dashboard-app-one.vercel.app/
 
 
 <br/>
