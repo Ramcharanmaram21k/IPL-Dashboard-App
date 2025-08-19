@@ -1,5 +1,7 @@
  **IPL Dashboard App** 
 
+## Live Link
+https://ipl-dashboard-app-one.vercel.app/team-matches/RCB
 
 
 <br/>
@@ -9,7 +11,7 @@
 <br/>
 
 
-The app must have the following functionalities
+The app had the following functionalities
 
 - When the app is opened, Home Route should be displayed
 - When the Home Route is opened,
